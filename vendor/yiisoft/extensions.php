@@ -3,6 +3,25 @@
 $vendorDir = dirname(__DIR__);
 
 return array (
+  'yiisoft/yii2-bootstrap' => 
+  array (
+    'name' => 'yiisoft/yii2-bootstrap',
+    'version' => 'dev-master',
+    'alias' => 
+    array (
+      '@yii/bootstrap' => $vendorDir . '/yiisoft/yii2-bootstrap/src',
+    ),
+  ),
+  'yiisoft/yii2-bootstrap5' => 
+  array (
+    'name' => 'yiisoft/yii2-bootstrap5',
+    'version' => 'dev-master',
+    'alias' => 
+    array (
+      '@yii/bootstrap5' => $vendorDir . '/yiisoft/yii2-bootstrap5/src',
+    ),
+    'bootstrap' => 'yii\\bootstrap5\\i18n\\TranslationBootstrap',
+  ),
   'yiisoft/yii2-debug' => 
   array (
     'name' => 'yiisoft/yii2-debug',
@@ -48,23 +67,22 @@ return array (
       '@yidas/yii2BowerAsset' => $vendorDir . '/yidas/yii2-bower-asset',
     ),
   ),
-  'yiisoft/yii2-bootstrap' => 
+  'kartik-v/yii2-widget-select2' => 
   array (
-    'name' => 'yiisoft/yii2-bootstrap',
+    'name' => 'kartik-v/yii2-widget-select2',
     'version' => 'dev-master',
     'alias' => 
     array (
-      '@yii/bootstrap' => $vendorDir . '/yiisoft/yii2-bootstrap/src',
+      '@kartik/select2' => $vendorDir . '/kartik-v/yii2-widget-select2/src',
     ),
   ),
-  'yiisoft/yii2-bootstrap5' => 
+  'kartik-v/yii2-krajee-base' => 
   array (
-    'name' => 'yiisoft/yii2-bootstrap5',
+    'name' => 'kartik-v/yii2-krajee-base',
     'version' => 'dev-master',
     'alias' => 
     array (
-      '@yii/bootstrap5' => $vendorDir . '/yiisoft/yii2-bootstrap5/src',
+      '@kartik/base' => $vendorDir . '/kartik-v/yii2-krajee-base/src',
     ),
-    'bootstrap' => 'yii\\bootstrap5\\i18n\\TranslationBootstrap',
   ),
 );

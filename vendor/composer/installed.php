@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'yiisoft/yii2-app-basic',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'd5bf3f3d535528e1235da7ebf2c896571813c731',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -212,6 +212,28 @@
                 0 => '2.4.x-dev',
             ),
             'dev_requirement' => true,
+        ),
+        'kartik-v/yii2-krajee-base' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '5c095126d1be47e0bb1f92779b7dc099f6feae31',
+            'type' => 'yii2-extension',
+            'install_path' => __DIR__ . '/../kartik-v/yii2-krajee-base',
+            'aliases' => array(
+                0 => '3.0.x-dev',
+            ),
+            'dev_requirement' => false,
+        ),
+        'kartik-v/yii2-widget-select2' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'f74f2cfbd5b4628ea578735890c39f9a8e4ed062',
+            'type' => 'yii2-extension',
+            'install_path' => __DIR__ . '/../kartik-v/yii2-widget-select2',
+            'aliases' => array(
+                0 => '2.2.x-dev',
+            ),
+            'dev_requirement' => false,
         ),
         'masterminds/html5' => array(
             'pretty_version' => 'dev-master',
@@ -581,6 +603,17 @@
             'aliases' => array(),
             'dev_requirement' => true,
         ),
+        'select2/select2' => array(
+            'pretty_version' => 'dev-develop',
+            'version' => 'dev-develop',
+            'reference' => '011fadd96f868fabb370d7bd9d498580af15bfd5',
+            'type' => 'component',
+            'install_path' => __DIR__ . '/../select2/select2',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'dev_requirement' => false,
+        ),
         'symfony/browser-kit' => array(
             'pretty_version' => '6.2.x-dev',
             'version' => '6.2.9999999.9999999-dev',
@@ -817,9 +850,9 @@
             'dev_requirement' => false,
         ),
         'yiisoft/yii2-app-basic' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'd5bf3f3d535528e1235da7ebf2c896571813c731',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
